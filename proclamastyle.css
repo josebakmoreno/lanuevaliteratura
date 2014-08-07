@@ -1,0 +1,111 @@
+html{
+	background-color: #dddddd;
+	background-image:url('ramon.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover; /* esto hace que el fondo no se mueva o background-repeat x o y lo que hacemos es decidir como se didtribuye la ima 
+	background repeat, no repeat si la imagen es pequeña, tambien hay background size*/
+}
+
+    
+
+
+body {
+	font-family: 'EB Garamond', serif;
+	font-size: 100%;
+	color:#4C4C4C;
+	background-color: #FFF5F0;
+	background: rgba(255,255,255,0.9);
+	width: 80%;
+	box-shadow: 0 0 40px rgba(0,0,0,5);
+	margin: 0 auto;
+	
+	/* son los parametros de orientacion de la luz. Moz y webkit son los rendering engines de moz chrome y safari. ms es para internet explorer */
+
+/* *{	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;} */
+} 
+
+/*a: link {color:jjjjj;
+			text-decoration:none;}*  /
+/*a: link{}
+a: hover{color:#999999;}
+a: focus{}
+a: active{}
+foobar, es horrible?
+Estas features son utiles para gente con impedimentos, ya que al subrayar los links los hacemos visibles
+*/
+
+/*display:block;
+margin-left:auto;
+margin-right:auto;*/
+ #heading {width:100%;
+ 		   padding: 0; 
+}
+
+nav ul{
+	
+	list-style: none;
+	margin-left:0;
+	margin-right:0;}
+
+nav li{
+	display: inline-block;
+	font: 
+
+	}
+nav a{
+	text-decoration:none;	
+	color:#4C4C4C;
+	padding:20px;
+}	
+
+
+main {margin: 40px auto;
+	padding: 80px; 
+	line-height:175%
+
+}
+main img{
+
+	 max-width: 100%;
+	 width:20%;
+	 height: 20%;
+	 box-shadow: 0 0 5px rgba(5,5,5,5);
+	 margin-left:auto;
+     margin-right:auto;
+     
+}
+
+p {
+	font-family: Georgia, serif;
+} 
+
+#signature{text-align: right;
+
+
+}
+
+/* first-of-type, first-line, son para resaltar o hacer las lineas mas grandes (son pseusoelementos
+	first letter para hacer la primera letra mas grande, genial para empezar textos*/
+
+/*if device is at least 700px wide 
+@media screen and (min-width: 700px){
+	body {
+		width: 700px;
+		font-size: 100%;
+	}
+}
+/td {
+	
+	padding-bottom: 10px;
+	min-width: 120px;
+}
+
+/*select by the id attribute #thumbnail (o lo q sea) {float: right;}
+
+
+poner imagen en ekl medio: display:block;
+margin-left:auto;
+margin-right:auto;*/

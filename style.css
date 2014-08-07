@@ -10,8 +10,6 @@ html{
     
 
 
- 
-
 body {
 	font-family: 'EB Garamond', serif;
 	font-size: 100%;
@@ -19,9 +17,12 @@ body {
 	background-color: #FFF5F0;
 	background: rgba(255,255,255,0.9);
 	width: 80%;
-	margin: 40px auto;
-	padding: 60px; 
-	box-shadow: 0 0 40px rgba(0,0,0,5);}
+	box-shadow: 0 0 40px rgba(0,0,0,5);
+	margin: 0 auto;
+	
+	
+
+
 	/* son los parametros de orientacion de la luz. Moz y webkit son los rendering engines de moz chrome y safari. ms es para internet explorer */
 
 /* *{	box-sizing:border-box;
@@ -42,21 +43,53 @@ Estas features son utiles para gente con impedimentos, ya que al subrayar los li
 /*display:block;
 margin-left:auto;
 margin-right:auto;*/
-img{
+ #heading {width:100%;
+ 		   padding: 0; 
+}
+
+nav ul{
+	
+	list-style: none;
+	margin-left:0;
+	margin-right:0;}
+
+nav li{
+	display: inline-block;
+
+	}
+nav a{
+	text-decoration:none;	
+	color:#4C4C4C;
+	padding:20px;
+}	
+
+
+
+main {margin: 40px auto;
+	padding: 60px; 
+	line-height:175%
+}
+main img{
 
 	 max-width: 100%;
 	 width:20%;
 	 height: 20%;
 	 box-shadow: 0 0 5px rgba(5,5,5,5);
-	 display:block;
-	 margin-left:auto;
-     margin-right:auto;
-	 
+	 margin-top: 10px;
+     margin-left:10px;
+     
 }
 
 p {
 	font-family: Georgia, serif;
-} /* first-of-type, first-line, son para resaltar o hacer las lineas mas grandes (son pseusoelementos
+} 
+
+#signature{text-align: right;
+
+
+}
+
+/* first-of-type, first-line, son para resaltar o hacer las lineas mas grandes (son pseusoelementos
 	first letter para hacer la primera letra mas grande, genial para empezar textos*/
 
 /*if device is at least 700px wide 
@@ -65,8 +98,8 @@ p {
 		width: 700px;
 		font-size: 100%;
 	}
-}*/
-td {
+}
+/td {
 	
 	padding-bottom: 10px;
 	min-width: 120px;
