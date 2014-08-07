@@ -12,7 +12,7 @@ html{
 
 body {
 	font-family: 'EB Garamond', serif;
-	font-size: 100%;
+	font-size: 125%;
 	color:#4C4C4C;
 	background-color: #FFF5F0;
 	background: rgba(255,255,255,0.9);
@@ -20,6 +20,9 @@ body {
 	box-shadow: 0 0 40px rgba(0,0,0,5);
 	margin: 0 auto;
 	
+	
+
+
 	/* son los parametros de orientacion de la luz. Moz y webkit son los rendering engines de moz chrome y safari. ms es para internet explorer */
 
 /* *{	box-sizing:border-box;
@@ -45,27 +48,26 @@ margin-right:auto;*/
 }
 
 nav ul{
-	
+	background-color: #333333;
 	list-style: none;
-	margin-left:0;
-	margin-right:0;}
+	margin:0;}
 
 nav li{
 	display: inline-block;
-	 
 
 	}
 nav a{
 	text-decoration:none;	
-	color:#4C4C4C;
+	color:#ffffff;
 	padding:20px;
+	display: block;
 }	
 
 
-main {margin: 40px auto;
-	padding: 80px; 
-	line-height:175%;
 
+main {margin: 40px auto;
+	padding: 60px; 
+	line-height:175%
 }
 main img{
 
@@ -73,11 +75,10 @@ main img{
 	 width:20%;
 	 height: 20%;
 	 box-shadow: 0 0 5px rgba(5,5,5,5);
-	 margin-left:auto;
-     margin-right:auto;
+	 margin-top: 10px;
+     margin-left:10px;
      
 }
-
 
 
 #signature{text-align: right;
