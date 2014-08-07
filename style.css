@@ -3,10 +3,14 @@ html{
 	background-image:url('ramon.jpg');
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-size: cover; /* esto hace que el fondo no se mueva o background-repeat x o y lo que haceoms es decidir como se didtribuye la ima 
+	background-size: cover; /* esto hace que el fondo no se mueva o background-repeat x o y lo que hacemos es decidir como se didtribuye la ima 
 	background repeat, no repeat si la imagen es pequeña, tambien hay background size*/
-
 }
+
+    
+
+
+ 
 
 body {
 	font-family: 'EB Garamond', serif;
@@ -17,7 +21,7 @@ body {
 	width: 80%;
 	margin: 40px auto;
 	padding: 60px; 
-	box-shadow: 0 0 40px rgba(0,0,0,5); 
+	box-shadow: 0 0 40px rgba(0,0,0,5);}
 	/* son los parametros de orientacion de la luz. Moz y webkit son los rendering engines de moz chrome y safari. ms es para internet explorer */
 
 /* *{	box-sizing:border-box;
