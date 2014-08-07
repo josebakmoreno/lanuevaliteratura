@@ -12,7 +12,7 @@ html{
 
 body {
 	font-family: 'EB Garamond', serif;
-	font-size: 100%;
+	font-size: 125%;
 	color:#4C4C4C;
 	background-color: #FFF5F0;
 	background: rgba(255,255,255,0.9);
@@ -48,10 +48,9 @@ margin-right:auto;*/
 }
 
 nav ul{
-	
+	background-color: #333333;
 	list-style: none;
-	margin-left:0;
-	margin-right:0;}
+	margin:0;}
 
 nav li{
 	display: inline-block;
@@ -59,8 +58,9 @@ nav li{
 	}
 nav a{
 	text-decoration:none;	
-	color:#4C4C4C;
+	color:#ffffff;
 	padding:20px;
+	display: block;
 }	
 
 
@@ -80,9 +80,6 @@ main img{
      
 }
 
-p {
-	font-family: Georgia, serif;
-} 
 
 #signature{text-align: right;
 
